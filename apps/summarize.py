@@ -2,10 +2,8 @@ from starlette.requests import Request
 
 import ray
 from ray import serve
-from ray.serve.handle import DeploymentHandle
 
 from fastapi import FastAPI
-
 from transformers import pipeline
 
 app = FastAPI()
